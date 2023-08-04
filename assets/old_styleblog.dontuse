@@ -1,0 +1,257 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /*left: 50%;
+  width: fit-content;*/
+}
+
+.header .flex-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  font-size: 1em;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+}
+
+.flex-menu .items {
+  margin: 1em 0.5em 0 0.5em;
+  padding: 0 0.5em 0 0.5em;
+  color: #e1e1e1;;
+  transition-duration: 0.2s
+}
+
+.items:hover{
+  color: goldenrod;
+}
+
+.items .current{
+  color: goldenrod;
+}
+
+.full-screen-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+/*  background-image: url("image.jpg");*/
+  background: url("image.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.centered-in-image {
+  position: relative;
+  top: 35%;
+  /*left: 50%;
+  width: fit-content;*/
+}
+
+.centered-in-image h1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  font-size: 9.5vmin;
+  margin: 0;
+}
+
+.centered-in-image h3 {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2.5vmin;
+  font-weight:300
+}
+
+.fs {
+  position: static;
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.greeting-div {
+  background-color: #2b2b2b;
+  position: static;
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  /*height: 100%;
+  margin: 0;
+  padding: 0;*/
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 2vh;
+}
+
+.flex-text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.flex-text p {
+  /*padding: 0.3em 1em 0.3em 1em;*/
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2vmin;
+  line-height: 1.5;
+  letter-spacing: 0.8;
+  text-align: center;
+}
+
+.flex-text h1 {
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 4vmin
+}
+
+.flex-photo {
+  margin: 0;
+  flex-basis: 200px;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 8vh;
+  margin: 8vh 3em 3em 3em;
+  box-shadow: 0px 1px 50px rgba(0, 0, 0, .8);
+  }
+
+/* The rest of the content on the page */
+.content {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background: #2b2b2b;
+}
+
+footer {
+  background: #101010;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  margin-top: auto;
+  order: 99;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog-post-intro {
+  background: blue;
+}
+
+.blog-post-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  background: orange;
+}
+
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33%;
+  padding: 0 1em 0 1em;
+}
+
+.blog-posts h4 {
+  text-align: center;
+}
+
+.blog-posts h5{
+  text-align: center;;
+}
+
+.blog-info {
+  text-align: center;
+}
+
+@media (max-height: 500px) {
+  .flex-text p {
+    font-size: 20px;
+  }
+
+  .flex-text h1{
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width 600px) {
+  .centered-in-image h1{
+    font-size: 12vmin;
+  }
+  
+  .centered-in-image h3{
+    font-size: 4vmin;
+  }
+
+  .header .flex-menu{
+    font-size: 2.5em;
+  }
+  .flex-text {
+    align-items: center;
+  }
+  
+  .flex-text p {
+    font-size: 24px;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+  }
+
+  .flex-text h1{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .flex-photo {
+    flex-basis: 100px;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    margin: 0;
+    margin-top: 4em;
+  }
+
+  body {
+    background: white;
+  }
+
+  .greeting-div {
+    flex-direction: column;
+    padding-top: 0;
+  }
+}
+
+/*
+.fs img {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+*/
+

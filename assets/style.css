@@ -1,0 +1,435 @@
+ 
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /*left: 50%;
+  width: fit-content;*/
+}
+.blog-header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  /*left: 50%;
+  width: fit-content;*/
+}
+
+.flex-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  font-size: 1em;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+}
+
+.flex-menu .items {
+  margin: 1em 0.5em 0 0.5em;
+  padding: 0 0.5em 0 0.5em;
+  color: #e1e1e1;;
+  transition-duration: 0.2s
+}
+
+.items:hover{
+  color: goldenrod;
+}
+
+.items .current{
+  color: goldenrod;
+}
+
+.items a {
+  text-decoration: none;
+  color: inherit;
+}
+.full-screen-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("home_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.partial-screen-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: url("home_background.jpg") no-repeat center center fixed;
+  background-size: cover;  
+}
+
+.blog-full-screen-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url("home_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.centered-in-image {
+  position: relative;
+  top: 35%;
+  /*left: 50%;
+  width: fit-content;*/
+}
+
+.centered-in-image h1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+  font-size: 9.5vmin;
+  margin: 0;
+}
+
+.centered-in-image h3 {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2.5vmin;
+  font-weight:300
+}
+
+.fs {
+  position: static;
+  width: 100%;
+  height: 100%;
+  /*overflow: hidden;
+  padding-bottom: 200px;*/
+}
+
+.partial-image-layer {
+  position: static;
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.greeting-div {
+  background-color: #2b2b2b;
+  position: static;
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  /*height: 100%;
+  margin: 0;
+  padding: 0;*/
+  padding-top: 16vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.flex-text {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 66%;
+}
+
+.flex-text p {
+  /*padding: 0.3em 1em 0.3em 1em;*/
+  padding: 0;
+  padding-right: 20vh;
+  font-family: 'Dosis', sans-serif;
+  font-size: 3vmin;
+  line-height: 1.5;
+  letter-spacing: 0.8;
+}
+
+.flex-text h1 {
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 4vmin
+}
+
+.flex-photo {
+  margin: 0;
+  flex-basis: 200px;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 8vh;
+  margin: 8vh 3em 3em 3em;
+  box-shadow: 0px 1px 50px rgba(0, 0, 0, .8);
+  }
+
+.content {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background: #2b2b2b;
+  display: initial;
+}
+
+footer {
+  background: #101010;
+  color: rgba(192, 192, 192, 0.8);
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  margin-top: auto;
+  order: 99;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: 'Dosis', sans-serif;
+  align-items: center;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer #whoami {
+  margin: 1em 3em;
+}
+
+footer #contactme {
+  margin: 1em 3em;
+}
+
+footer #poweredby {
+  margin: 1em 3em;
+}
+
+footer .social-media-list {
+  display: flex;
+  flex-direction: row;
+
+}
+footer .social-media-entries {
+  padding: 0 1em;
+}
+footer .svg-icon {
+  height: 16px;
+  width: 16px;
+  fill: rgba(192, 192, 192, 0.8);
+  padding-right: 0.2em;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog-post-intro {
+  background: #193a48;
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: space-around;
+  padding-bottom: 2vh;
+}
+
+.blog-post-intro p {
+  /*padding: 0.3em 1em 0.3em 1em;*/
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5vmax;
+  line-height: 1.5;
+  letter-spacing: 0.8;
+  text-align: center;
+}
+
+.blog-post-intro h1 {
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 4vmin
+}
+
+.blog-post-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33%;
+  padding: 0 1em;
+  margin: 1em;
+  background: #10100e;
+  /*background: #BFB890;*/
+  opacity: 0.9;
+  box-shadow: 0 0 10px 5px #000;
+  text-align: center;
+}
+
+.blog-posts h4 {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+}
+
+.blog-posts h5{
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2vmax;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-posts a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.blog-posts a:hover {
+  text-decoration: none;
+}
+
+.blog-posts p {
+  text-align: left;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.blog-info {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.post-foreground {
+  width: 75%;
+  height: auto;
+  background-color: #10100e;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  padding: 1% 0 5% 0;
+  box-shadow: 0 0 60px 30px #000;
+  color: black;
+}
+
+.blog-post {
+  color: white;
+}
+
+.blog-post-body {
+  /*padding: 0.3em 1em 0.3em 1em;*/
+  padding-top: 1em;
+  /*font-family: 'Dosis', sans-serif;*/
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: 0.8;
+  width: 80%;
+  text-justify: revert;
+  margin: auto;
+}
+
+.blog-post-body a {
+  color: inherit;
+}
+
+.blog-post-title {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 4vw;
+}
+
+.blog-post-tag {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.blog-post-meta {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.filler {
+  height: 200px;
+}
+
+@media (max-height: 500px) {
+  .flex-text p {
+    font-size: 20px;
+  }
+
+  .flex-text h1{
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .centered-in-image h1{
+    font-size: 12vmin;
+  }
+
+  .centered-in-image h3{
+    font-size: 4vmin;
+  }
+
+  .header .flex-menu{
+    font-size: 2.5em;
+  }
+  .flex-text {
+    align-items: center;
+  }
+
+  .flex-text p {
+    font-size: 24px;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: center;
+  }
+
+  .flex-text h1{
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .flex-photo {
+    flex-basis: 100px;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    margin: 0;
+    margin-top: 4em;
+  }
+
+  .greeting-div {
+    flex-direction: column;
+    padding-top: 0;
+  }
+}
+
+/*
+.fs img {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+*/

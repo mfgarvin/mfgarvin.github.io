@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://mfgarvin.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mfgarvin.com/" rel="alternate" type="text/html" /><updated>2023-08-04T15:52:41-04:00</updated><id>https://mfgarvin.com/feed.xml</id><title type="html">Some Clever Webpage Name</title><subtitle>This site serves as a &quot;homebase&quot; of sorts for the various projects, thoughts, and varia that I&apos;d like to have on the World Wide Web. Probably won&apos;t be anything profound, but hey, who knows. Have a look.</subtitle><entry><title type="html">Hi! 👋</title><link href="https://mfgarvin.com/blog/intros/varia/2023/08/04/Hi.html" rel="alternate" type="text/html" title="Hi! 👋" /><published>2023-08-04T14:00:00-04:00</published><updated>2023-08-04T14:00:00-04:00</updated><id>https://mfgarvin.com/blog/intros/varia/2023/08/04/Hi</id><content type="html" xml:base="https://mfgarvin.com/blog/intros/varia/2023/08/04/Hi.html"><![CDATA[<h1 id="humble-beginnings">Humble Beginnings</h1>
+
+<p>So, Hello there! You’ve stumbled upon a blog, one upon millions of similar troves of text and thoughts out on the internet. I hope you enjoy your stay.</p>
+
+<p>Just to give an idea of what this site is about - I built this site from scratch as a bit of a programming &amp; coding project over the summer of 2023. Yes, this includes the CSS, so if the styling seems somewhat elementary (or if it breaks, especially on mobile!), that’s why.</p>
+
+<p>I’ve had this domain for a little while and I’ve gone through a couple different website hosting services &amp; content management systems, but all in all, I just want this site to be a little place to share a bit about who I am and to share a bit about the projects I’m working on. There could be some other various thoughts intermingled, though I wouldn’t count on it.</p>
+
+<p>So yeah, that’s what I’ve got going here. Feel free to peruse, browse my code on <a href="https://github.com/mfgarvin">Github</a>, or even say hi over on <a href="https://www.twitter.com/mfgarvin">Twitter</a> (or X, or whatever it’ll be called in the future…). Thanks for stopping by!</p>
+
+<p>Pax Chrisi.</p>]]></content><author><name></name></author><category term="blog" /><category term="intros" /><category term="varia" /><summary type="html"><![CDATA[Humble Beginnings]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://mfgarvin.com/jekyll/update/2023/07/13/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-07-13T21:12:59-04:00</published><updated>2023-07-13T21:12:59-04:00</updated><id>https://mfgarvin.com/jekyll/update/2023/07/13/welcome-to-jekyll</id><content type="html" xml:base="https://mfgarvin.com/jekyll/update/2023/07/13/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
