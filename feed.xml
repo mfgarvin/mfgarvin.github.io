@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://mfgarvin.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mfgarvin.com/" rel="alternate" type="text/html" /><updated>2023-08-16T22:39:02-04:00</updated><id>https://mfgarvin.com/feed.xml</id><title type="html">Michael Garvin - Jekyll</title><subtitle>This site serves as a &quot;homebase&quot; of sorts for the various projects, thoughts, and varia that I&apos;d like to share on the World Wide Web. It likely won&apos;t be anything profound, but hey, who knows. Have a look!</subtitle><entry><title type="html">Hi! 👋</title><link href="https://mfgarvin.com/blog/intros/2023-08-04/Hi" rel="alternate" type="text/html" title="Hi! 👋" /><published>2023-08-04T14:00:00-04:00</published><updated>2023-08-04T14:00:00-04:00</updated><id>https://mfgarvin.com/blog/intros/2023-08-04/Hi</id><content type="html" xml:base="https://mfgarvin.com/blog/intros/2023-08-04/Hi"><![CDATA[<h1 id="humble-beginnings">Humble Beginnings</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://mfgarvin.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mfgarvin.com/" rel="alternate" type="text/html" /><updated>2023-08-17T12:31:10-04:00</updated><id>https://mfgarvin.com/feed.xml</id><title type="html">Michael Garvin - Jekyll</title><subtitle>This site serves as a &quot;homebase&quot; of sorts for the various projects, thoughts, and varia that I&apos;d like to share on the World Wide Web. It likely won&apos;t be anything profound, but hey, who knows. Have a look!</subtitle><entry><title type="html">It Should Be Simple, Right?</title><link href="https://mfgarvin.com/blog/projects/2023-08-17/It-should-be-simple-right" rel="alternate" type="text/html" title="It Should Be Simple, Right?" /><published>2023-08-17T10:44:00-04:00</published><updated>2023-08-17T10:44:00-04:00</updated><id>https://mfgarvin.com/blog/projects/2023-08-17/It-should-be-simple-right</id><content type="html" xml:base="https://mfgarvin.com/blog/projects/2023-08-17/It-should-be-simple-right"><![CDATA[<h1 id="how-hard-can-it-be">How hard can it be?</h1>
+
+<p>That’s what I thought to myself when I started planning out in my head how I’d go about this project. Each key is basically just a switch, so all I’d need to do was wire each key to a microcontroller and <strong>boom</strong> that’d be it, right? Well, in theory, yes that’s all that needed to happen. Realistically, it was a bit more complicated than that…</p>
+
+<h1 id="the-keyboard">The keyboard</h1>
+
+<p>These manuals are from an old Tellers organ, based out of Erie, PA. They’re well-worn (and damaged, following their brief time in the dumpster), but a keyboard is a keyboard.</p>
+
+<p><img src="/assets/images/impressions1.jpg#horizontal" alt="One of the manuals" /></p>
+
+<p>If we flip it over, we can see the wiring associated with each key. There’s a lot going on there, but at least it’s pretty neat and tidy.</p>
+
+<p><img src="/assets/images/impressions2.jpg#horizontal" alt="The underside" /></p>
+
+<p>As for how this circuitry works on this keyboard, you’ll notice that there’s a bus bar at the bottom of the keyboard, which feeds electricity up the wires on the underside of the key to a metal prong (just above the crossbar). When a key is pressed, this prong touches a metal contact, to which a wire is soldered, and completes the circuit.</p>
+
+<p><img src="/assets/images/impressions3.jpg#horizontal" alt="That's a lot of wires..." /></p>
+
+<p>All the wires were wrapped up in a wiring harness, bundled up together with electrical tape. As they were all unlabeled, I’d have to check continuity to see which wire was associated with each key. Simple enough on paper. However, the keen eyed among you might notice that there are a <strong>lot</strong> of wires. Way more than if each of the 61 keys only had one wire running from it.</p>
+
+<h1 id="the-intricacies-of-a-pipe-organ">The intricacies of a pipe organ</h1>
+
+<p>As it turns out, the way this organ was built was that each key had multiple contact points (each key supported up to 8 separate circuits) for the sake of coupling different manuals together. But, before I can explain that, I should explain what I mean by “different manuals.”</p>
+
+<p>Organs typically have multiple manuals, or keyboards, that the organist can use as he plays. Often, there’s at least a <em>swell</em> manual (aptly named because it controls the pipes in a swell chamber, whose volume is controlled by opening and closing swell shutters, similar to how a set of blinds can be adjusted to let in different amounts of light), a <em>Great</em> manual (which controls your primary, louder, congregational organ pipes), and a <em>pedal board</em> (a set of keys one plays with their feet, which normally controls the lowest notes of an organ). Each manual normally has different pipes, which can be enabled/disabled with the stops to add different colors and sounds to the instrument (a loud trumpet, a soft flute, an oboe, etc.) As an organist plays, he/she can “couple” different manuals together, taking the pipes that would normally only be playable on the <em>Swell</em> and playing them on the <em>Great</em> as well, taking the <em>Great</em> and coupling them to the <em>Pedal</em>, or many other variations therein. Some organs will even couple a manual to itself, just an octave up or down, to give it the impression of being a larger instrument with more pipes (and more sound) than it otherwise has.</p>
+
+<p>In the case of this organ, the <em>Swell</em> (the manual I’m working on here) has two or three wires going to each key, which means that each key had one or two couplings attached to it (if I had to guess, I think these were the <em>Swell to Swell 4</em> and <em>Swell to Swell 16’</em> that this organ console featured, but I digress).</p>
+
+<p>Long story short, there were somewhere in the ballpark of 150 wires that I had to strip, identify, and label… Yes, it took forever. Using a continuity tester to see which wire in the bundle went to which key, it took about a month to properly label which wire went to which key. Frankly, I’d wish that monotony upon no one.</p>
+
+<p>This post has gone on long enough, though. Check out the next post for more details on how all of that wiring wound up.</p>]]></content><author><name>Michael Garvin</name></author><category term="projects" /><summary type="html"><![CDATA[How hard can it be?]]></summary></entry><entry><title type="html">Let the Project Begin</title><link href="https://mfgarvin.com/blog/projects/2023-08-16/Let-the-Project-Begin" rel="alternate" type="text/html" title="Let the Project Begin" /><published>2023-08-16T22:00:00-04:00</published><updated>2023-08-16T22:00:00-04:00</updated><id>https://mfgarvin.com/blog/projects/2023-08-16/Let-the-Project-Begin</id><content type="html" xml:base="https://mfgarvin.com/blog/projects/2023-08-16/Let-the-Project-Begin"><![CDATA[<h1 id="let-the-project-begin">Let the Project Begin</h1>
+
+<p>Alright. So, If you don’t know me already, you should know that at the core of who I am lies a musician, an engineer, and a theologian. All of these are important, but when it comes to a project where I can mix two of these together, I’m all in.</p>
+
+<h2 id="some-backstory">Some Backstory</h2>
+
+<p>I’m currently a student at St. Mary’s Seminary &amp; Graduate School of Theology, up in Cleveland Ohio (I try not to put too much out on the web, but this is already google-able, so that’s nothing new). Recently, the school has been in the process of renovating different parts of the campus: the dorms, the classrooms, the chapel, etc. And, the renovations have been going well! However, part of the chapel renovation included installing a new pipe organ, and consequently, throwing out the old pipe organ console. The console was 60 years old and in disrepair, so this move made sense. However, the engineer in me couldn’t just let good / working parts go to waste. So, upon finding parts of the instrument in the dumpster, I dove in and <em>voila</em>, I found myself in possession of two pipe organ manuals (that’s the technical term for the keyboard part of the instrument).</p>
+
+<p><img src="/assets/images/dumpsterdiving1.jpg#horizontal" alt="It beckons me..." title="It beckons me..." /></p>
+
+<p><img src="/assets/images/dumpsterdiving2.jpg#vertical" alt="Me, after successfully recovering the instrument" title="Me, after sucessfully recovering the instrument" /></p>
+
+<p>Living in a dorm, and with no workshop to my name, I stored them until I was able to bring them home, where they remained up until June when I actually started working on this project.</p>
+
+<p>Initially, I didn’t know exactly what I wanted to do with these manuals. I knew I wanted to make them back into the instrument from which they came, but I was going back and forth on whether I wanted to build a digital MIDI instrument, or “restore” it back to its analog roots, complete with pipes, a blower motor, the whole 9 yards. Eventually, though, it became clear that the best place to start would be with a digital instrument. For, even if I did want to convert/restore it as an analogue pipe organ, first building a digital framework upon which to build upon would prove useful.</p>
+
+<p>And so, once the summer rolled around, this project finally sprang to life. These posts are pretty backlogged, but I took the first steps in the conversion in June 2023. More on that in the next post, though… ;)</p>]]></content><author><name>Michael Garvin</name></author><category term="projects" /><summary type="html"><![CDATA[Let the Project Begin]]></summary></entry><entry><title type="html">Hi! 👋</title><link href="https://mfgarvin.com/blog/intros/2023-08-04/Hi" rel="alternate" type="text/html" title="Hi! 👋" /><published>2023-08-04T14:00:00-04:00</published><updated>2023-08-04T14:00:00-04:00</updated><id>https://mfgarvin.com/blog/intros/2023-08-04/Hi</id><content type="html" xml:base="https://mfgarvin.com/blog/intros/2023-08-04/Hi"><![CDATA[<h1 id="humble-beginnings">Humble Beginnings</h1>
 
 <p>So, Hello there! You’ve stumbled upon a blog, one upon millions of similar troves of text and thoughts out on the internet. I hope you enjoy your stay.</p>
 
@@ -8,4 +54,4 @@
 
 <p>So yeah, that’s what I’ve got going here. Feel free to peruse, browse my code on <a href="https://github.com/mfgarvin">Github</a>, or even say hi over on <a href="https://www.twitter.com/mfgarvin">Twitter</a> (or X, or whatever it’ll be called in the future…). Thanks for stopping by!</p>
 
-<p>Pax Chrisi.</p>]]></content><author><name></name></author><category term="intros" /><summary type="html"><![CDATA[Humble Beginnings]]></summary></entry></feed>
+<p>Pax Chrisi.</p>]]></content><author><name>Michael Garvin</name></author><category term="intros" /><summary type="html"><![CDATA[Humble Beginnings]]></summary></entry></feed>

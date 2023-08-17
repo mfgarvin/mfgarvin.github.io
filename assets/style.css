@@ -261,6 +261,7 @@ footer .svg-icon {
 .blog-post-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: center;
 }
@@ -268,7 +269,7 @@ footer .svg-icon {
 .blog-posts {
   display: flex;
   flex-direction: column;
-  flex-basis: 33%;
+  flex-basis: 25%;
   padding: 0 1em;
   margin: 1em;
   background: #10100e;
@@ -309,6 +310,7 @@ footer .svg-icon {
 .blog-info {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
+  font-size: 1.5em;
 }
 
 .post-foreground {
@@ -343,6 +345,16 @@ footer .svg-icon {
 
 .blog-post-body a {
   color: inherit;
+}
+
+img[src$='#vertical'] {
+  width: 50%;
+  margin: 1em 25%;
+}
+
+img[src$='#horizontal'] {
+  width: 75%;
+  margin: 1em 13.5%;
 }
 
 .blog-post-title {
@@ -421,6 +433,31 @@ footer .svg-icon {
     flex-direction: column;
     padding-top: 0;
   }
+
+  footer #whoami {
+    margin: 1em 0 1em 0.2em;
+  }
+  
+  footer #contactme {
+    margin: 1em 0;
+  }
+  
+  footer #poweredby {
+    margin: 1em 0.2em 1em 0;
+  }
+
+  .blog-posts {
+    flex-basis: auto;
+  }
+  
+  .blog-posts h5 {
+    font-size: 1.5em;
+  }
+
+  .blog-post-intro p {
+    font-size: 1.5em;
+  }
+
 }
 
 /*
